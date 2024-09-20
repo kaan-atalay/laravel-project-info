@@ -1,7 +1,7 @@
 <?php
 
 
-namespace KaanAtalay\Authentication\Http\Controllers;
+namespace KaanAtalay\LaravelProjectInfo\Http\Controllers;
 
 
 use App\Http\Controllers\Controller;

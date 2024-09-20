@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use KaanAtalay\Authentication\Http\Controllers\InfoController;
+use KaanAtalay\LaravelProjectInfo\Http\Controllers\InfoController;
 
 
 Route::middleware('api')
