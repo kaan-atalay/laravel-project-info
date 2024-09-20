@@ -1,6 +1,7 @@
 {
     "name": "kaan-atalay/laravel-project-info",
     "description": "This is my package laravel-project-info",
+    "version": "0.0.1",
     "keywords": [
         "Kaan Atalay",
         "laravel",
