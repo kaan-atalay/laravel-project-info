@@ -16,6 +16,8 @@ class InfoController extends Controller
     {
         return response()->json([
             "name" => config("app.name"),
+            "description" => config("app.description"),
+            "icon" => asset("storage/icon.png")
         ]);
     }
 
