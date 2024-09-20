@@ -2,9 +2,9 @@
 
 namespace KaanAtalay\LaravelProjectInfo;
 
+use KaanAtalay\LaravelProjectInfo\Commands\LaravelProjectInfoCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use KaanAtalay\LaravelProjectInfo\Commands\LaravelProjectInfoCommand;
 
 class LaravelProjectInfoServiceProvider extends PackageServiceProvider
 {
@@ -21,6 +21,6 @@ class LaravelProjectInfoServiceProvider extends PackageServiceProvider
             // ->hasViews()
             // ->hasMigration('create_laravel_project_info_table')
             // ->hasCommand(LaravelProjectInfoCommand::class)
-            ->hasRoute("api");
+            ->hasRoute('api');
     }
 }

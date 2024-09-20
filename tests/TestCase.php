@@ -3,8 +3,8 @@
 namespace KaanAtalay\LaravelProjectInfo\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use KaanAtalay\LaravelProjectInfo\LaravelProjectInfoServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
